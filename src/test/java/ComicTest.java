@@ -7,6 +7,8 @@ public class ComicTest {
 
 
     Comic Comic1 = new Comic("DC", "John Smith", "Superman");
+    Comic Comic2 = new Comic("DC", "John Smith",0 );
+
 
     @Test
     public void testGetName() {
@@ -36,7 +38,17 @@ public class ComicTest {
         Comic1.setBrand("Marvel");
         assertEquals("Marvel",Comic1.getBrand());
     }
+    @Test
+    public void testSetName(){
+        Comic1.setName("Iron Man");
+        assertEquals("Iron Man",Comic1.getName());
 
 
+}
+    @Test
+    public void testSetIndex() {
+        Comic2.setIndex(523672);
+        assertEquals(523672, Comic2.getIndex());
+    }
 }
 

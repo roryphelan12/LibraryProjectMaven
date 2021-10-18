@@ -24,8 +24,24 @@ public class DVDTest {
         assertEquals(123, DVD2.getIndex());
     }
     @Test
+    public void testSetDirector(){
+        DVD1.setDirector("Henry");
+        assertEquals("Henry",DVD1.getDirector());
+    }
+    @Test
+    public void testSetReleaseYear(){
+        DVD1.setReleaseYear(1994);
+        assertEquals(1994,DVD1.getReleaseYear());
+    }
+    @Test
     public void testSetIndex(){
         DVD1.setIndex(523672);
         assertEquals(523672,DVD1.getIndex());
+
+    }
+    @Test
+    public void testSetName(){
+        DVD1.setName("The Grey");
+        assertEquals("The Grey",DVD1.getName());
     }
 }
