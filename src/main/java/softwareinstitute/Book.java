@@ -9,11 +9,6 @@ public class Book extends LibraryItem implements Borrowable{
     private String author;
     private int edition;
 
-
-
-
-
-
     ///////////////////////////Constructors//////////////////////////////////
 
     public Book(String title, int edition, String author) {
@@ -29,9 +24,6 @@ public class Book extends LibraryItem implements Borrowable{
 
     }
 
-
-
-
     ///////////////////////////Methods//////////////////////////////////
 
 
@@ -46,37 +38,4 @@ public class Book extends LibraryItem implements Borrowable{
 
     }
 
-    @Override
-    public void director(String directorName) {
-
-    }
-
-    @Override
-    public void author(String authorName) {
-
-    }
-
-    @Override
-    public void releaseYear(int year) {
-
-    }
-
-    @Override
-    public void getAuthor(String author) {
-
-    }
-
-    @Override
-    public void getEdition(int edition) {
-
-    }
-
-
-
-
-
-    @Override
-    public int getReleaseYear(int releaseYear) {
-        return 0;
-    }
 }
