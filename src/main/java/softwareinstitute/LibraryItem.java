@@ -8,17 +8,11 @@ public abstract class LibraryItem {
     private String title;
     private int index;
 
-
     ///////////////////////////Constructors//////////////////////////////////
-
-
-
     public LibraryItem(String title){
         this.title = title;
     }
     public LibraryItem(int index) {this.index = index;}
-
-
 
 
     ///////////////////////////Methods//////////////////////////////////

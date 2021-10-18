@@ -8,16 +8,6 @@ public class Comic extends LibraryItem implements Borrowable {
 
 
     ///////////////////////////Constructors//////////////////////////////////
-
-    public Comic(String title){
-        super(title);
-    }
-
-    public Comic(int index){
-        super(index);
-    }
-
-
     public Comic(String brand, String author, String title){
         super(title);
         this.author = author;
@@ -29,9 +19,6 @@ public class Comic extends LibraryItem implements Borrowable {
         this.author = author;
         this.brand = brand;
     }
-
-
-
 
     ///////////////////////////Methods//////////////////////////////////
 
