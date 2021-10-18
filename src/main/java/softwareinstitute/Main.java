@@ -16,11 +16,11 @@ public class Main {
         Comic Comic2 = new Comic("Spiderman","DC",1234232);
 
 
-        System.out.println(DVD1.getReleaseYear());
-        System.out.println(Comic1.getName());
-        System.out.println(Book1.getName());
-        System.out.println(Comic1.getBrand());
-        System.out.println(DVD1.getDirector());
+       // System.out.println(DVD1.getReleaseYear());
+      //  System.out.println(Comic1.getName());
+       // System.out.println(Book1.getName());
+        //System.out.println(Comic1.getBrand());
+       // System.out.println(DVD1.getDirector());
 
 
 
