@@ -13,6 +13,10 @@ public abstract class LibraryItem {
         this.title = title;
     }
     public LibraryItem(int index) {this.index = index;}
+    public LibraryItem(String title, int index){
+        this.title = title;
+        this.index = index;
+    }
 
 
     ///////////////////////////Methods//////////////////////////////////

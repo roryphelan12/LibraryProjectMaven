@@ -44,4 +44,10 @@ public class DVDTest {
         DVD1.setName("The Grey");
         assertEquals("The Grey",DVD1.getName());
     }
+    @Test
+    public void testDVDConstructor(){
+        DVD DVD1 = new DVD("Christopher Nolan", 2021, "Tennet");
+        assertEquals(2021,DVD1.getReleaseYear());
+
+    }
 }
