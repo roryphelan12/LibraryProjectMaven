@@ -16,6 +16,16 @@ public class LibraryTest {
     public void testGetIndex(){
         assertEquals(142,Comic2.getIndex());
     }
+    @Test
+    public void testSetName() {
+        Comic1.setName("new comic");
+        assertEquals("new comic", Comic1.getName());
+    }
+    @Test
+    public void testSetIndex(){
+        Comic2.setIndex(666);
+        assertEquals(666,Comic2.getIndex());
+    }
 
 
 }

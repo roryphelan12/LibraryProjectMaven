@@ -42,8 +42,10 @@ public class Comic extends LibraryItem implements Borrowable {
     public void setBrand(String brand) {this.brand = brand;}
 
     @Override
-    public void loanDuration() {
+    public String Borrow() {
+        System.out.println("is not borrowable");
 
+        return null;
     }
 
 

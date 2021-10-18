@@ -40,5 +40,16 @@ class BookTest {
         Book1.setAuthor("Dickens");
         assertEquals("Dickens", Book1.getAuthor());
     }
+    @Test
+    public void testGetIndex() {
+        Book book = new Book(422,2,"lord of the flies");
+        assertEquals(422,book.getIndex());
+    }
+    @Test
+    public void testSetIndex() {
+        Book book = new Book(422,2,"lord of the flies");
+        book.setIndex(3);
+        assertEquals(3,book.getIndex());
+    }
 }
 

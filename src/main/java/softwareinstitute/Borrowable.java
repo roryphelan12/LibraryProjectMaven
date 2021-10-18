@@ -1,6 +1,6 @@
 package softwareinstitute;
 
-public interface Borrowable {
-    void loanDuration();
+public interface Borrowable{
+    String Borrow();
 
 }

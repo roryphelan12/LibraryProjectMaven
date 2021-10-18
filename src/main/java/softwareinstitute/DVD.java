@@ -28,8 +28,10 @@ public class DVD extends LibraryItem implements Borrowable {
 
 
     @Override
-    public void loanDuration() {
+    public String Borrow() {
+        System.out.println("is borrowable");
 
+        return null;
     }
 
 

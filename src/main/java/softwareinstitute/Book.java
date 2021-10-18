@@ -11,6 +11,8 @@ public class Book extends LibraryItem implements Borrowable{
 
     ///////////////////////////Constructors//////////////////////////////////
 
+
+
     public Book(String title, int edition, String author) {
         super(title);
         this.author = author;
@@ -34,8 +36,10 @@ public class Book extends LibraryItem implements Borrowable{
 
 
     @Override
-    public void loanDuration() {
+    public String Borrow() {
 
+
+        return null;
     }
 
 }
