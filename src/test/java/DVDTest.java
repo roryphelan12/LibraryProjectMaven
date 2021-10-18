@@ -26,6 +26,6 @@ public class DVDTest {
     @Test
     public void testSetIndex(){
         DVD1.setIndex(523672);
-        assertEquals(523672,DVD2.getIndex());
+        assertEquals(523672,DVD1.getIndex());
     }
 }

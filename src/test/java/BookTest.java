@@ -25,9 +25,9 @@ class BookTest {
 
     }
     @Test
-    public void testSetBrand(){
+    public void testSetEdition(){
         Book1.setEdition(5);
-        assertEquals("Marvel",Book1.getEdition());
+        assertEquals(5,Book1.getEdition());
 
     }
     @Test
@@ -37,7 +37,7 @@ class BookTest {
     }
     @Test
     public void testSetAuthor() {
-        Book1.setName("Dickens");
+        Book1.setAuthor("Dickens");
         assertEquals("Dickens", Book1.getAuthor());
     }
 }
