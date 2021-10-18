@@ -36,10 +36,8 @@ public class Book extends LibraryItem implements Borrowable{
 
 
     @Override
-    public String Borrow() {
+    public void Borrow() {
 
-
-        return null;
     }
 
 }
