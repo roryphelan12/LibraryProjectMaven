@@ -5,7 +5,7 @@ import softwareinstitute.Comic;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class BookTest {
+class BookTest{
 
 
     @Test
