@@ -7,29 +7,29 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class LibraryTest {
 
     @Test
-     void testConstructor() {
+    public  void testConstructor() {
         Comic Comic1 = new Comic("DC", "John Smith", "Superman");
         Comic Comic2 = new Comic("DC", "John Smith", 142);
         assertEquals("Superman",Comic1.getName());
     }
     @Test
-     void testGetName() {
+    public  void testGetName() {
         Comic Comic1 = new Comic("DC", "John Smith", "Superman");
         assertEquals("Superman", Comic1.getName());
     }
     @Test
-     void testGetIndex(){
+    public   void testGetIndex(){
         Comic Comic2 = new Comic("DC", "John Smith", 142);
         assertEquals(142,Comic2.getIndex());
     }
     @Test
-     void testSetName() {
+    public  void testSetName() {
         Comic Comic1 = new Comic("DC", "John Smith", "Superman");
         Comic1.setName("new comic");
         assertEquals("new comic", Comic1.getName());
     }
     @Test
-     void testSetIndex(){
+    public void testSetIndex(){
         Comic Comic2 = new Comic("DC", "John Smith", 142);
         Comic2.setIndex(666);
         assertEquals(666,Comic2.getIndex());

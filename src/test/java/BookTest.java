@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.Test;
 import softwareinstitute.Book;
 import softwareinstitute.Comic;
+import softwareinstitute.LibraryItem;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -10,7 +11,7 @@ class BookTest{
 
     @Test
     public void testGetName() {
-        Book Book1 = new Book("Lord of The Rings", 1, "Christopher Tolkien");
+        LibraryItem Book1 = new Book("Lord of The Rings", 1, "Christopher Tolkien");
         assertEquals("Lord of The Rings", Book1.getName());
 
     }
@@ -39,7 +40,7 @@ class BookTest{
 
     @Test
     public void testSetName() {
-        Book Book1 = new Book("Lord of The Rings", 1, "Christopher Tolkien");
+        LibraryItem Book1 = new Book("Lord of The Rings", 1, "Christopher Tolkien");
         Book1.setName("Two Towers");
         assertEquals("Two Towers", Book1.getName());
     }
@@ -53,14 +54,14 @@ class BookTest{
 
     @Test
     public void testGetIndex() {
-        Book Book1 = new Book("Lord of The Rings", 1, "Christopher Tolkien");
+        LibraryItem Book1 = new Book("Lord of The Rings", 1, "Christopher Tolkien");
         Book book = new Book(422, 2, "lord of the flies");
         assertEquals(422, book.getIndex());
     }
 
     @Test
     public void testSetIndex() {
-        Book Book1 = new Book("Lord of The Rings", 1, "Christopher Tolkien");
+        LibraryItem Book1 = new Book("Lord of The Rings", 1, "Christopher Tolkien");
         Book book = new Book(422, 2, "lord of the flies");
         book.setIndex(3);
         assertEquals(3, book.getIndex());
