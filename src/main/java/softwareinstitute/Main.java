@@ -12,20 +12,10 @@ LibraryItem libraryitem = new LibraryItem("book", 1273) {
         };
 
 
-
+Book book = new Book("hello",3,"hello");
+String answer = book.Borrow();
+System.out.print(answer);
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 
