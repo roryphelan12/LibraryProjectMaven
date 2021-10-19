@@ -5,4 +5,3 @@ public class IsTheNameTennet {
         return "Tennet".equals(name) ? "Yes" : "No";
     }
 }
-

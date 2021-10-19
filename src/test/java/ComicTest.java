@@ -7,11 +7,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ComicTest {
 
-
-
-
-
-
     @Test
     public  void testGetName() {
         LibraryItem Comic1 = new Comic("DC", "John Smith", "Superman");
